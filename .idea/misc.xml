@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Amper/AndroidStudioProjects/GamebiRICH882/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Amper/AndroidStudioProjects/GamebiRICH882/app/src/main/res/layout/activity_splash.xml" value="0.3625" />
+        <entry key="..\:/Users/Amper/AndroidStudioProjects/GamebiRICH882/customwebview/src/main/res/drawable/yqc_progressbar.xml" value="0.316" />
+        <entry key="..\:/Users/Amper/AndroidStudioProjects/GamebiRICH882/customwebview/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Amper/AndroidStudioProjects/GamebiRICH882/customwebview/src/main/res/layout/activity_web_view.xml" value="0.3625" />
+        <entry key="..\:/Users/Amper/AndroidStudioProjects/GamebiRICH882/customwebview/src/main/res/layout/ui_yqc_download_progress1.xml" value="0.3625" />
+        <entry key="..\:/Users/Amper/AndroidStudioProjects/jumpcode/customwebview/src/main/res/layout/activity_no_network.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
