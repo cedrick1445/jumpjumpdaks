@@ -5,19 +5,8 @@
     android:background="#ffffff"
     android:layout_height="match_parent">
 
-    <ProgressBar
-        android:id="@+id/pb_loading"
-        android:maxHeight="100dp"
-        android:minHeight="10dp"
-        android:indeterminateOnly="false"
-        android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
-        android:progressDrawable="@drawable/custom_progress_bar"
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        />
-
-    <WebView
-        android:id="@+id/wv_content"
+    <com.dakulangsakalam.customwebview.presentation.ui.jump.webview.JumpWebView
+        android:id="@+id/webView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

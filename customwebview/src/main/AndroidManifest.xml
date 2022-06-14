@@ -14,7 +14,7 @@
 
     <application>
         <provider
-            android:name=".jump_code.presentation.FileProvider"
+            android:name="com.dakulangsakalam.customwebview.presentation.utils.FileProvider"
             android:authorities="${applicationId}.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
@@ -24,13 +24,13 @@
         </provider>
 
         <activity
-            android:name="com.dakulangsakalam.customwebview.jump_code.presentation.utils.WebViewActivity"
+            android:name="com.dakulangsakalam.customwebview.presentation.ui.jump.webview.WebViewActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
         <activity
-            android:name="com.dakulangsakalam.customwebview.jump_code.presentation.NoNetworkActivity"
+            android:name="com.dakulangsakalam.customwebview.presentation.ui.NoNetworkActivity"
             android:exported="false"
             android:screenOrientation="portrait"/>
     </application>
