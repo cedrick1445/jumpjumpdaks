@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.Light.DialogWhenLarge"/>
+
+
+    <style name="Theme.JumpCode" parent="Theme.AppCompat.Light.NoActionBar"/>
+</resources>
