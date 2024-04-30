@@ -142,8 +142,7 @@ abstract class JumpActivity: DownloadTool() {
 
     fun getAppPackageName(): String = if (jumpType == JumpType.JUMP_TESTING || jumpType == JumpType.SILENT_TESTING) "123456" else applicationContext.packageName
 
-    fun splashAction(jumpType: JumpType?, domain: Int? = 1, onStart: (version: Int, downUrl: String) -> Unit) {
-        domainSwitch = domain ?: 1
+     fun splashAction(jumpType: JumpType?, onStart: (version: Int, downUrl: String) -> Unit) {
         this.jumpType = jumpType ?: JumpType.JUMP_LINK
         this.onStart = onStart
         startLogs()

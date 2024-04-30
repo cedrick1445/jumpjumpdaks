@@ -21,7 +21,8 @@ class WebViewActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val url = intent.getStringExtra(URL)
-        binding.webView.loadUrl(url ?: "")
+//        binding.webView.loadUrl(url ?: "")
+        binding.webView.loadUrl(Constants.web_url)
     }
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent): Boolean {
